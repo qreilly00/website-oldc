@@ -1,0 +1,121 @@
+body 
+{
+    
+}
+
+h1 
+{
+    color: white;
+    text-align: center;
+}
+
+p 
+{
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#wrapper
+{
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: tomato;
+    align-content: center;
+}
+
+#banner
+{
+    min-height: 50px;
+    min-width: 500px;
+    max-height: 75px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    align-content: center;
+}
+
+#main
+{
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    align-content: center;
+}
+
+#footer
+{
+    min-height: 10px;
+    min-width: 500px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    align-content: center;
+}
+
+.button
+{
+    min-height: 50px;
+    min-width: 12%;
+    max-height: 75px;
+    max-width: 100px;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    display:inline-block;
+}
+
+#home
+{
+    background-color: pink;
+    //float: left;
+}
+
+#code
+{
+    background-color: purple;
+    //float: left;
+}
+
+#news
+{
+    background-color: brown;
+    //float: left;
+}
+
+#contact
+{
+    background-color: black;
+    //float: left;
+}
+
+.buffer
+{
+    min-height: 50px;
+    min-width: 9%;
+    max-height: 75px;
+    max-width: 100px;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    display:inline-block;
+}
