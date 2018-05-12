@@ -29,6 +29,7 @@ p
     min-height: 40px;
     background-color: black;
 	padding-bottom: 62x;
+	position: fixed;
 }
 
 .button
@@ -63,18 +64,62 @@ p
 
 #picBanner
 {
-	max-height: 100px;
-	//overflow: hidden;
+	//min-height: 800px;
+	max-height: 1000px;
+	min-width: 100%;
+	overflow: hidden;
+	//border: 0px solid black;
 }
 
-#picMain
+.mainImg
 {
-	max-width: 100%;
+	min-width: 100%;
 	//max-height: 200px;
 	
+	//display: block;
+    //margin-left: auto;
+    //margin-right: auto;
+    //width: 40%;
 }
 
 .button:hover
 {
 	background-color: #a2a8b2;
 }
+
+.bannerQuart
+{
+	background-color: black;
+    border-bottom: 0px solid black;
+	min-width: 25%;
+	max-width: 25%;
+	min-height: 100%;
+	float: left;
+	text-align: center;
+	//overflow: auto;
+	padding-bottom: 0px;
+	margin: 0px;
+	
+}
+
+.mainImg:hover
+{
+	opacity: 0.8;
+}
+
+/*#picBan1
+{
+	background-color: red;
+}
+#picBan2
+{
+	background-color: blue;
+}
+#picBan3
+{
+	background-color: green;
+}
+#picBan4
+{
+	background-color: pink;
+}*/
